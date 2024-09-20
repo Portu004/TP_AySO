@@ -1,0 +1,99 @@
+ssh-keygen
+cat $HOME/.ssh/*.pub
+cd repogit
+git clone git@github.com:Portu004/TP_AySO.git
+cd TP_AySO/
+pwd
+ls -l
+-rw
+-rw-rw-r--
+ls -l
+cat /etc/os-release
+man grep
+whoami
+echo “Usuario=$(whoami)” > datos_usuario.txt 
+echo "usuario:<nombre-del-usuario>" > datos_usuario.txt
+pwd
+ls -l
+git add .
+git config --global user.email "matiasgoncalves2004@gmail.com"
+git config --global user.name "Portu004"
+git commit -m "ADD: agregado 1er ejercicio
+sobre datos_usuarios.txt"
+git status
+grep
+/proc
+tail -n1
+cd repogit/
+cd TP_AySO/
+rm "Alumno:"
+ls
+ls -la
+cd .git
+ls -la
+pwd
+cd repogit
+cd .
+cd ..
+cd --
+pwd
+repogit/
+cd repogit
+pwd
+ls -la
+cd TP_AySO/
+ls -la
+cd .git
+ls -la
+cd branches
+ls -la
+cd ..
+cd ls -la
+ls -la
+cd ..
+ls -la
+cd UTN-FRA_SO_onBording/
+ls -la
+cd ..
+cd TP_AySO/
+git status
+ls
+ls -la
+cd .git
+ls 
+cd hooks/
+ls
+cd ..
+cd objects/
+ls
+cd ..
+cd refs/
+ls
+cd ..
+cd logs/
+ls
+cd ..
+ls -la
+cd .
+ls
+ls -la
+ls -l
+pwd
+git clone git@github.com:Portu004/TP_AySO.git
+ls -la
+cd TP_AySO/
+cat << EOF >> README.md
+Alumno: Matias Goncalves
+División: 114
+Turno: Mañana
+EOF 
+cat << EOF >> README.md
+Alumno: Matias Goncalves
+División: 114
+Turno: Mañana
+EOF
+
+cat README.md 
+git add README.md 
+git commit -m "docs: Actualización del README.md con información del alumno"
+history -a
